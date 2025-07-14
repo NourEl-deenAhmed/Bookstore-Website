@@ -1,0 +1,14 @@
+.sov {
+                background-color: rgb(204, 0, 0);
+                height:100px;
+                display: flex;
+                border-bottom: 3px solid rgb(107, 105, 102);
+                border-radius: 5px;
+            }
+            .union {
+                color: rgba(255,215,0,255);
+                align-self: center;
+                margin-left: 30px;
+                font-family: 'Black Ops One';
+                
+            }

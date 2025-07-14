@@ -1,0 +1,93 @@
+.logo {
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: row;
+                margin-right: 100px;               
+            }
+            .logo-text {
+                font-weight: bold;
+                font-family: serif;
+            }
+            .logo-image {            
+                width:50px
+            }
+            .nav-bar {
+                display: flex;
+                border-color: black;
+                border-width: 2px;
+                border-style: solid;
+                border-radius: 5px;
+                background-color: rgb(227, 204, 204);
+                justify-content: center;
+            }
+            .nav-div{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                
+            } 
+            li {
+                list-style: none;
+                display: inline-block;
+            }
+            a{
+                text-decoration: none;
+            }
+            .nav-item {
+                color:black;
+                font-size: 20px;
+                margin-right: 8px;
+            }
+            .search-bar {
+                height: 30px;
+                width: 200px;
+                align-self: center;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: rgb(166, 166, 166);
+                background-color: rgb(240, 240, 240);
+                margin-right: 5px;
+
+            }
+            
+            .search-button {
+                align-self: center;
+                height: 36px;
+                border-radius: 5px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: rgb(166, 166, 166);
+                background-color: rgb(240, 240, 240);
+                margin-right: 145px;
+            }
+            button:hover {
+                height: 40px;
+
+            }
+            .search-img {
+                height: 25px;
+                padding-top: 3px;
+            }
+
+            .sign {
+                align-self: center;
+                height: 36px;
+                border-radius: 5px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: rgb(166, 166, 166);
+                background-color: rgb(240, 240, 240);
+                margin-right:10px;
+                
+            }
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+
+           
+
+            

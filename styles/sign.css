@@ -1,0 +1,92 @@
+body{
+                background-color:rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                
+            }
+            p{
+                font-family:'Courier New', Courier, monospace;
+                margin: 0px;
+            }
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+            .logo {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+
+                
+                
+                
+
+            }
+            .logo-text {
+                font-weight: bold;
+                font-family: serif;
+                color: black;
+                
+                
+            }
+            .logo-image {
+                
+                width:50px
+            }
+            .content {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 260px;
+                
+                min-height: 100vh;
+                
+            }
+            .sign {
+                font-weight: bolder;
+                font-size: 35px;
+                margin: 10px;
+                font-family: serif;
+            }
+            .em {
+                align-self: flex-start;
+                font-family:sans-serif;
+                display: block;
+            }
+            .in {
+                display: block;
+                margin-bottom: 15px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: rgb(166, 166, 166);
+                background-color: rgb(240, 240, 240);
+                width: 250px;
+                height:25px;
+
+            }
+            .sub {
+                align-self: center;
+                border-radius: 10px;
+                border-color: rgb(234, 211, 211);
+                border-style: solid;
+                background-color: black;
+                color: white;
+                width: 250px;
+                height:25px;
+                
+            }
+            .sub:hover {
+                border: none;
+
+
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+            }
