@@ -91,6 +91,7 @@
                 text-align: center;
                 box-sizing: border-box;
                 transform-origin: center;
+                font-family: 'Archivo Black';
             }
 
             .buy:hover {
@@ -100,3 +101,57 @@
                 transform: translateY(-2px) scale(1.02);
                 border-color: #FFC107;
             }
+
+            .the-form {
+                background-color: #F9F5E8;
+                
+                width:20%;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                justify-self: center;
+                transition: transform 0.2s ease;
+            }
+            .the-form:hover {
+                transform: translateY(5px);
+            }
+            
+            .my-form {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                
+                
+
+            }
+
+            .form-input {
+                width:90%;
+                align-self: center;
+            }
+            .form-text {
+                align-self: center;
+                color:#ED1C24;
+                font-family: 'Black Ops One';
+            }
+            .buy-button {
+                width:40%;
+                align-self: center;
+            }
+
+            .hide {
+                display: none;
+            }
+
+            .hidden-msg {
+                display:none;
+            }
+
+            .show-msg {
+                color:#ED1C24;
+                font-family: 'Archivo Black';
+                align-self: center;
+
+            }
+
+           
