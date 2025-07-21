@@ -86,7 +86,19 @@ body{
 
             }
 
-            form{
+            form {
                 display: flex;
                 flex-direction: column;
+            }
+
+            .empty-field {
+                background: orangered;
+                color: #fff;
+                width: 95%;
+                padding: 5px;
+                margin: 20px;
+
+            }
+            .hidden {
+                display: none;
             }
