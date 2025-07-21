@@ -8,7 +8,7 @@
         <div class="content">
             <div class="logo">
                 <img class="logo-image" src="icons/bookstore.png">
-               <a href="index.html"> <p class="logo-text">
+               <a href="index.html" target="_blank"> <p class="logo-text">
                     BookStore
                 </p>
                 </a>
@@ -17,13 +17,18 @@
                 Sign in
             </p>
             
-            <form>
+            <form id="my-form">
                 <label class="em" for="em">Email</label>
                 <input class="in" type="text" id="em" name="em">
                 <label class="em" for="pass">Password</label>
                 <input class="in" type="password" id="pass" name="pass">
                 <input class="sub" type="submit" value="Sign in">
             </form>
+            <p class="hidden">
+                You must enter all fields
+            </p>
         </div>
+
+        <script src="javascript/sign.js"></script>
     </body>
 </html>
