@@ -70,7 +70,7 @@
                         <p class="book-stats">
                             &#36;1450
                         </p>
-                        <button class="buy">Add to Cart</button>
+                        <button class="buy" id="add">Add to Cart</button>
                     </div>
 
             </div>
@@ -93,6 +93,36 @@
             
 
         </div> 
+        <div class="hide" class="the-form">
+            <form id="formy">
+                <br>
+                <div class="my-form">
+                <label for="name" class="form-text">Name</label>
+                <input type="text" id="name" name="name" class="form-input">
+                <br>
+                <label for="address" class="form-text">Address</label>
+                <input type="text" id="address" name="address" class="form-input">
+                <br>
+                <label for="phone-number" class="form-text">Phone Number</label>
+                <input type="text" id="phone-number" name="phone-number" class="form-input">
+                <br>
+                <label for="card-number" class="form-text">Card Number</label>
+                <input type="text" id="card-number" name="card-number" class="form-input">
+                <br>
+                <div class="buy-button">
+                    <input type="submit" value="buy" class="buy" class="form-input">
+                </div>
+                <br>
+                <p class="hidden-msg">Please Fill All Fields </p>
+
+                </div>
+                
+
+        </div>
+            </form>
+
+
+        
         <footer>
             <div class="top-footer">
                 <div>
@@ -133,5 +163,6 @@
                 </p>
             </div>
         </footer>
+        <script src="javascript\purchase.js"></script>
 </body>
 </html>
