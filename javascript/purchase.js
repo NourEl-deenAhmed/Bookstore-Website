@@ -22,6 +22,7 @@ function onBuy (e) {
     if(myName.value == '' || myAddress.value == '' || 
         myPhone.value == '' || myCard.value =='')
         {
+            message.innerHTML = 'Please Fill All Fields';
             message.classList.remove('hidden-msg');
             message.classList.add('show-msg');
             setTimeout(()=> message.classList.add('hidden-msg'),3000);
